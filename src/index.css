@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: "Georgia", serif;
+  --color-brand-orange-500: #FF6321;
+  --color-brand-orange-600: #e5581c;
+  --color-brand-black: #0A0A0A;
+  --color-brand-gray-900: #141414;
+  --color-brand-gray-800: #1a1a1a;
+}
+
+body {
+  background-color: var(--color-brand-black);
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+}
+
+.text-gradient {
+  color: var(--color-brand-orange-500);
+}
+
+.menu-item-border {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.border-light {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.editorial-h1 {
+  font-family: var(--font-serif);
+  line-height: 0.85;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+
+.editorial-h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  opacity: 0.6;
+}
