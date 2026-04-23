@@ -332,17 +332,17 @@ export default function App() {
               </div>
 
               <div className="w-full h-[400px] lg:h-auto overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 opacity-80 hover:opacity-100 border-light border">
-                <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1m3!1d3113.314647317769!2d-9.1487973!3d38.7126972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19348002b7e7cd%3A0x77a77cebd3cc4e65!2sJam%20Club!5e0!3m2!1sen!2spt!4v1714000000000!5m2!1sen!2spt" 
-                  width="100%" 
-                  height="100%" 
-                  style={{ border: 0 }} 
-                  allowFullScreen 
-                  loading="lazy" 
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="JAM Club Location"
-                />
-              </div>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.4354224424364!2d-9.14879732342416!3d38.71269717176465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19348002b7e7cd%3A0x77a77cebd3cc4e65!2sJam%20Club!5e0!3m2!1sen!2spt!4v1714000000000!5m2!1sen!2spt" 
+    width="100%" 
+    height="100%" 
+    style={{ border: 0 }} 
+    allowFullScreen 
+    loading="lazy" 
+    referrerPolicy="no-referrer-when-downgrade"
+    title="JAM Club Location"
+  />
+</div>
             </div>
           </div>
         </div>
