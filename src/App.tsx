@@ -97,7 +97,7 @@ export default function App() {
           <div className="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/80 to-transparent z-10" />
           <div className="absolute inset-0 bg-brand-black/40 z-10" />
           <img 
-            src="/images/hero.jpg"
+            src="images/hero.jpg" 
             alt="Interior of JAM Club bar"
             className="w-full h-full object-cover object-center"
           />
@@ -173,7 +173,7 @@ export default function App() {
             >
               <div className="aspect-[4/5] overflow-hidden border-light">
                 <img 
-                  src="/images/tapas.jpg"
+                  src="images/tapas.jpg" 
                   alt="Quality seafood and tapas at JAM Club"
                   className="w-full h-full object-cover grayscale brightness-75 hover:grayscale-0 hover:brightness-100 transition-all duration-500"
                 />
@@ -244,7 +244,7 @@ export default function App() {
         <div className="w-full md:w-1/2 h-full overflow-hidden relative group">
           <div className="absolute inset-0 bg-brand-black/20 group-hover:bg-transparent transition-colors duration-700 z-10 pointer-events-none" />
           <img 
-            src="/images/drinks.jpg" 
+            src="images/drinks.jpg" 
             alt="Signature Hot Drinks" 
             className="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-1000 group-hover:scale-105" 
           />
@@ -252,7 +252,7 @@ export default function App() {
         <div className="w-full md:w-1/2 h-full overflow-hidden relative group">
           <div className="absolute inset-0 bg-brand-black/20 group-hover:bg-transparent transition-colors duration-700 z-10 pointer-events-none" />
           <img 
-            src="/images/ambience.jpg" 
+            src="images/ambience.jpg" 
             alt="JAM Club Ambience" 
             className="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-1000 group-hover:scale-105" 
           />
@@ -304,7 +304,7 @@ export default function App() {
                     <div>
                       <h4 className="font-semibold text-lg mb-1 uppercase tracking-wider text-sm">Location</h4>
                       <p className="text-white opacity-60">Tv. dos Pescadores 27<br />1200-328 Lisboa, Portugal</p>
-                      <a href="https://www.google.pt/maps/place/Jam+Club/@38.7126972,-9.1487973,17z/data=!4m15!1m8!3m7!1s0xd19348002b7e7cd:0x77a77cebd3cc4e65!2sJam+Club!8m2!3d38.7126972!4d-9.1462224!10e2!16s%2Fg%2F11gfnd6snm!3m5!1s0xd19348002b7e7cd:0x77a77cebd3cc4e65!8m2!3d38.7126972!4d-9.1462224!16s%2Fg%2F11gfnd6snm?entry=ttu" 
+                      <a href="https://www.google.pt/maps/place/Jam+Club/@38.7126972,-9.1487973,17z" 
                          target="_blank" rel="noopener noreferrer"
                          className="text-brand-orange-500 text-sm font-bold tracking-widest uppercase hover:text-white transition-colors mt-2 inline-block">
                         Get Directions
@@ -333,7 +333,7 @@ export default function App() {
 
               <div className="w-full h-[400px] lg:h-auto overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 opacity-80 hover:opacity-100 border-light border">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.1492570077876!2d-9.148797323812845!3d38.71269715752391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19348002b7e7cd%3A0x77a77cebd3cc4e65!2sJam%20Club!5e0!3m2!1sen!2spt!4v1713531405615!5m2!1sen!2spt" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1m3!1d3113.314647317769!2d-9.1487973!3d38.7126972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19348002b7e7cd%3A0x77a77cebd3cc4e65!2sJam%20Club!5e0!3m2!1sen!2spt!4v1714000000000!5m2!1sen!2spt" 
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }} 
@@ -375,4 +375,3 @@ export default function App() {
     </div>
   );
 }
-
